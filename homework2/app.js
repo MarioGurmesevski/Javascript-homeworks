@@ -1,6 +1,5 @@
 let yearBorn = prompt("What year are you born");
 let yearBornMeaning = (yearBorn - 4) % 12;
-console.log (yearBornMeaning)
 if (yearBornMeaning===0) {
     console.log("You are a Rat");
 }
